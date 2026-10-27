@@ -1,9 +1,7 @@
 # Team1C public releases
 
-This repository is the public download channel for Team1C client updates.
+This public repository is the download channel for Team1C client updates. The Team1C source code remains in the private `Team1C-Desktop` repository. Do not publish source code, customer data, or database backups here.
 
-The Team1C source code remains in the private `Team1C-Desktop` repository. This public repository is reserved for published release notes and installer/update packages only; it must not contain source code, customer data, or database backups.
-
-Clients will check the latest published GitHub Release here. A release is ready for clients only after its installer asset and SHA-256 digest are available.
+The client reads `latest.json` to check whether an update exists. Each published update must include the supported x86 and x64 installer assets and their SHA-256 digests. The manifest must only point to assets in this repository's GitHub Releases.
 
 No installer or update package has been published yet.
